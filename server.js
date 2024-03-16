@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Connect to MongoDB
-mongoose.connect('mongodb+srv://chetan11:Chetan11@cluster0.i3lteiy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0');
+mongoose.connect('process.env.MONGO_URL');
 
 
 
